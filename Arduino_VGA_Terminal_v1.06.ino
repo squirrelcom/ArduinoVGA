@@ -19,7 +19,7 @@ volatile byte regin = 0;                         // Index of current input posit
 volatile int mFrame = 0;                         // 1/60s frame counter for cursor blinking
 byte mEscValid = 0;                              // Number of valid characters in mEscBuffer[]  
 byte mEscBuffer[5];
-byte mRow = 1;                                   // cursor position in terminal window
+byte mRow = 8;                                   // cursor position in terminal window
 byte mCol = 0;                                   // cursor position in terminal window
 byte oldc = ' ';                                 // stores char a cursor position
 
