@@ -99,6 +99,9 @@ void setup()
   TIMSK2 = 0;                                     // no interrupts here
 
   GTCCR = 0;                                      // clear TSM => all timers start synchronously
+  
+  UCSR0B = 0;                       	            // brute-force the USART off just in case...
+
   interrupts();
 }
 
