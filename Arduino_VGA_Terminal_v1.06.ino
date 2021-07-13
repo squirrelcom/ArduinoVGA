@@ -25,7 +25,7 @@ byte oldc = ' ';                                 // stores char a cursor positio
 
 byte vram[25][40] = { 
   "****************************************",
-  "*  ATMega328P VGA ANSI TERMINAL v1.06  *",
+  "*    PCI/OS VGA ANSI TERMINAL v///     *",
   "****************************************",
   "* - 320x480 pixels / 60Hz refresh rate *",
   "* - 40x25 characters VRAM text output  *",
