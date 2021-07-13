@@ -33,7 +33,7 @@ byte vram[25][40] = {
   "",
   "0123456789012345678901234567890123456789",
   "",                               
-  "    **** COMMODORE 64 BASIC V2 ****",                               
+  "    **** PCI/OS BASIC V2 ****",                               
   "",                               
   " 64K RAM SYSTEM  38911 BASIC BYTES FREE",                               
   "",                               
